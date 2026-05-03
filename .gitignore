@@ -12,6 +12,8 @@ dist
 dist-ssr
 .env
 *.local
+firebase-auth-entrega.zip
+LINK_APLICACAO.txt
 
 # Editor directories and files
 .vscode/*
