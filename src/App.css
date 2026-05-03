@@ -1,0 +1,99 @@
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background: #f3f5f9;
+}
+
+.caixa {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin: 0 0 8px;
+  color: #1f2937;
+  font-size: 32px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #374151;
+  font-weight: 600;
+}
+
+input {
+  padding: 11px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 6px;
+  padding: 12px;
+  border: 0;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.mensagem {
+  margin: 0;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.erro {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.sucesso {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.link {
+  margin: 0;
+  text-align: center;
+}
+
+.link a {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dados p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 6px;
+  background: #f8fafc;
+  color: #334155;
+}
